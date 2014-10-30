@@ -1,20 +1,41 @@
 package com.company.Students;
 
+import com.company.Exceptions.SingExceptions;
+import com.company.Interfaces.ISinger;
+
 /**
- * Created by venga_000 on 10/27/2014.
+ * Created by Cosovanu Vasile on 10/27/2014.
  *
  * This is the class for a military student
- *
  */
-public class MilitaryStudent extends Student {
+public class MilitaryStudent extends Student implements ISinger {
 
-    public MilitaryStudent() {
-        super("");
+    private boolean isOfficer = false;
+
+    public MilitaryStudent(String name) {
+        super(name);
+        checkIfOfficer();
+    }
+
+    private boolean checkIfOfficer(){
+        return isOfficer;
     }
 
     @Override
     public boolean attendingCourse(String courseName) {
-        return false;
+        return courseName != null && (courseName.startsWith("Mil"));
     }
 
+    @Override
+    public void sing() throws SingExceptions{
+        if( getmName() == null ) {
+            throw new SingExceptions("The name is null");
+        }
+        System.out.println(this.getmName() + " is singing the anthem");
+    }
+
+
+    public void setOfficer(boolean officer){
+        isOfficer = officer;
+    }
 }
