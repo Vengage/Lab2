@@ -1,9 +1,9 @@
 package com.company.Students;
 
 /**
- * Created by venga_000 on 10/27/2014.
+ * Created by Cosovanu Vasile on 10/27/2014.
  *
- * This is the abstract sutdent class
+ * This is the abstract student class
  */
 public abstract class Student {
 
