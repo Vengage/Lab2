@@ -28,7 +28,7 @@ public abstract class Animal {
      *
      * @param answer If the animal is carnivore or not
      * @return <code>True</code> if the animal is carnivore
-     *
+     * text text text
      */
     public abstract boolean isCarnivore(String answer);
 
