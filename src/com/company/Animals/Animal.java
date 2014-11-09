@@ -1,4 +1,4 @@
-package com.company.Animals;
+package com.company.animals;
 
 /**
  * Created by Cosovanu Vasile on 10/31/2014.

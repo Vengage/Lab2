@@ -1,7 +1,7 @@
-package com.company.Animals;
+package com.company.animals;
 
-import com.company.Exceptions.SpecialExceptions;
-import com.company.Interfaces.IAdditionals;
+import com.company.exceptions.SpecialExceptions;
+import com.company.interfaces.IAdditionals;
 
 /**
  * Created by Cosovanu Vasile on 10/31/2014.

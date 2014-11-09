@@ -1,6 +1,6 @@
-package com.company.Interfaces;
+package com.company.interfaces;
 
-import com.company.Exceptions.SpecialExceptions;
+import com.company.exceptions.SpecialExceptions;
 
 /**
  * Created by Cosovanu Vasile on 10/31/2014.

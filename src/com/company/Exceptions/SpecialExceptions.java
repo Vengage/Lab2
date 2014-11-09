@@ -1,4 +1,4 @@
-package com.company.Exceptions;
+package com.company.exceptions;
 
 /**
  * Created by Cosovanu Vasile on 10/31/2014.
