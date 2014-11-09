@@ -8,15 +8,10 @@
 package com.company;
 
 
-import com.company.Animals.Cow;
-import com.company.Animals.Snake;
-import com.company.Exceptions.SingExceptions;
-import com.company.Exceptions.SpecialExceptions;
-import com.company.Interfaces.IAdditionals;
-import com.company.Interfaces.ISinger;
-import com.company.Students.CivilStudent;
-import com.company.Students.MilitaryStudent;
-import com.company.Students.Student;
+import com.company.animals.Cow;
+import com.company.animals.Snake;
+import com.company.exceptions.SpecialExceptions;
+import com.company.interfaces.IAdditionals;
 
 public class Main {
 
