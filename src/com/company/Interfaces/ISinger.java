@@ -1,6 +1,6 @@
-package com.company.Interfaces;
+package com.company.interfaces;
 
-import com.company.Exceptions.SingExceptions;
+import com.company.exceptions.SingExceptions;
 
 /**
  * Created by Cosovanu Vasile on 10/27/2014.

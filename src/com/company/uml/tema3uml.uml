@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="270.75" y="191.0">com.company.animals.Cow</node>
+    <node x="36.0" y="415.0">com.company.exceptions.SpecialExceptions</node>
+    <node x="321.0" y="34.0">com.company.interfaces.IAdditionals</node>
+    <node x="269.0" y="416.0">com.company.Main</node>
+    <node x="0.0" y="0.0">com.company.animals.Animal</node>
+    <node x="1.75" y="191.0">com.company.animals.Snake</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Main" target="com.company.animals.Snake">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.company.animals.Cow" target="com.company.exceptions.SpecialExceptions">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.company.animals.Snake" target="com.company.animals.Animal">
+      <point x="-62.25" y="-70.0" />
+      <point x="-64.0" y="70.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.animals.Cow">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.company.animals.Snake" target="com.company.exceptions.SpecialExceptions">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.company.animals.Cow" target="com.company.animals.Animal">
+      <point x="-60.5" y="-70.0" />
+      <point x="331.25" y="161.0" />
+      <point x="192.0" y="161.0" />
+      <point x="64.0" y="70.5" />
+    </edge>
+    <edge source="com.company.animals.Snake" target="com.company.interfaces.IAdditionals">
+      <point x="62.25" y="-70.0" />
+      <point x="188.5" y="171.0" />
+      <point x="364.75" y="171.0" />
+      <point x="-43.75" y="36.5" />
+    </edge>
+    <edge source="com.company.animals.Cow" target="com.company.interfaces.IAdditionals">
+      <point x="60.5" y="-70.0" />
+      <point x="43.75" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="354.5" y="240.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,6 +1,6 @@
-package com.company.Students;
+package com.company.students;
 
-import com.company.Interfaces.ISinger;
+import com.company.interfaces.ISinger;
 
 /**
  * Created by Cosovanu Vasile on 10/27/2014.
